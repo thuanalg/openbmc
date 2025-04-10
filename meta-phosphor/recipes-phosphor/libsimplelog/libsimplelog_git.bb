@@ -11,7 +11,7 @@ SRC_URI = "git://git@github.com/thuanalg/simplelog-topic.git;branch=main;protoco
 
 # Modify these as desired
 PV = "1.0+git"
-SRCREV = "fddbca69669be090738e1b079d46b35545b12d8e"
+SRCREV = "fb92630fca32079111161d36b1d0beb16e98ee88"
 
 S = "${WORKDIR}/git"
 
@@ -20,5 +20,4 @@ inherit cmake
 # Specify any options you want to pass to cmake using EXTRA_OECMAKE:
 EXTRA_OECMAKE += "-DUNIX_LINUX=1"
 
-DEPENDS += "pthread"
 
