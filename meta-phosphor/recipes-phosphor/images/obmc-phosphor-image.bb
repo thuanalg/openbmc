@@ -61,3 +61,5 @@ OVERLAYFS_ETC_DEVICE = "/dev/null"
 python create_overlayfs_etc_preinit:append() {
     os.unlink(preinitPath)
 }
+
+IMAGE_INSTALL += "libsimplelog"
